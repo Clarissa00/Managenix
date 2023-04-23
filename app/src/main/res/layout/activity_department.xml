@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="auto"
+    android:background="@drawable/gradient_background"
+    tools:context=".DepartmentActivity">
+
+    <Button
+        android:id="@+id/Comps1"
+        android:layout_width="301dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="616dp"
+        android:text="@string/computer1"
+        android:textColor="#020202"
+        android:textSize="20sp"
+        android:background="@drawable/purple_gradient_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="0.086"
+        tools:ignore="MissingConstraints,UnknownId" />
+
+    <Button
+        android:id="@+id/Electronics"
+        android:layout_width="301dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/electronics1"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:background="@drawable/purple_gradient_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IT" />
+
+    <Button
+        android:id="@+id/Mechanical"
+        android:layout_width="301dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/mechanical1"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:background="@drawable/purple_gradient_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Electronics"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/IT"
+        android:layout_width="301dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/it1"
+        android:textColor="#020202"
+        android:textSize="20sp"
+        android:background="@drawable/purple_gradient_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Comps1"
+        tools:ignore="UnknownId" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

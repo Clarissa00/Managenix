@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "938388761025",
+    "project_id": "managenix2",
+    "storage_bucket": "managenix2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938388761025:android:b13b590798ea221d1ca740",
+        "android_client_info": {
+          "package_name": "com.example.managenix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938388761025-mgfbe0eh95b12ukjfdk3kk532dfba40p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCREjdB46x9qxgLHIbpCVpVqaJDyC16bU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938388761025-mgfbe0eh95b12ukjfdk3kk532dfba40p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".StudentprofileActivity">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout11"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="40dp"
+                android:hint="First Name"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/Sfirstname"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout12"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/middle_name"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/Smiddlename"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintTop_toBottomOf="@+id/Name"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:ignore="LabelFor,MissingConstraints,SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout13"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/last_name"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/Slastname"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:importantForAutofill="no"
+                    android:inputType="textPersonName"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/middlename"
+                    app:layout_constraintVertical_bias="0.016"
+                    tools:ignore="LabelFor,MissingConstraints,SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout14"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="Student ID"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/Ssid"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout15"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/permanent_address1"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/Saddress"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="textPostalAddress"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.495"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+                    app:layout_constraintVertical_bias="0.023"
+                    tools:ignore="LabelFor,MissingConstraints,SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout16"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/nationality_for_eg_indian1"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/SNationality1"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.495"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/religion"
+                    app:layout_constraintVertical_bias="0.062"
+                    tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout17"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/religion1"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/Sreligion"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.504"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/editTextPhone"
+                    app:layout_constraintVertical_bias="0.012"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout18"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/phone_no"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/SPhone"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="phone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.504"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/address"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout19"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/email_id_personal_email1"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/SEmailAddressP"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.495"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lastname"
+                    app:layout_constraintVertical_bias="0.018"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout20"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="Bloodgroup (for eg : A+)"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/Sbloodgrp"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout21"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="Age (for eg : 18)"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/Sage"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout22"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="Gender"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/Sgender"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout23"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="Father's Name"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/Sfathersname"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout24"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="Father's Phone No."
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/Sfatherphoneno"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="phone" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout27"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="Father's Occupation"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/Sfathersoccupation"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout26"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="Mother's Name"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/Smothersname"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout25"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="Mother's Phone No."
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/Smothersphoneno"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="phone" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout28"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="Mother's Occupation"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/Smothersoccupation"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/SDATE"
+                android:layout_width="290dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_vertical"
+                android:hint=" Date of Birth"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/SSUBMIT"
+                android:layout_width="114dp"
+                android:layout_height="62dp"
+                android:layout_marginStart="150dp"
+                android:layout_marginBottom="40dp"
+                android:text="Submit"
+                android:textColor="#000000"
+                android:background="@drawable/purple_gradient_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.118"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.991"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

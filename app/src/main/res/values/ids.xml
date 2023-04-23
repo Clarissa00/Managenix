@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="register2" type="id" />
+    <item name="RUsername" type="id" />
+    <item name="RPassword" type="id" />
+    <item name="RCPassword" type="id" />
+    <item name="REmailidc" type="id" />
+    <item name="REmailidp" type="id" />
+    <item name="RSurname" type="id" />
+    <item name="submit" type="id" />
+    <item name="spinner_Country" type="id" />
+    <item name="religion" type="id" />
+    <item name="address" type="id" />
+    <item name="Phoneno1" type="id" />
+    <item name="datePickerButton" type="id" />
+    <item name="Next" type="id" />
+    <item name="Nationality1" type="id" />
+    <item name="email" type="id" />
+    <item name="lastname" type="id" />
+    <item name="middlename" type="id" />
+    <item name="Name" type="id" />
+    <item name="studentprofile1" type="id" />
+</resources>

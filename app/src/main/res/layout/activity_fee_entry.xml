@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    tools:context=".fee_entry">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar17"
+                app:menu="@menu/menu_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                tools:ignore="MissingConstraints" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="290dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="10dp"
+                android:hint="Student Name">
+
+                <EditText
+                    android:id="@+id/FESNAME"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="290dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="15dp"
+                android:hint="Roll No">
+
+                <EditText
+                    android:id="@+id/FESROLLNO"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="290dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="15dp"
+                android:hint="Branch">
+
+                <EditText
+                    android:id="@+id/FESBRANCH"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="290dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="15dp"
+                android:hint="Year">
+
+                <EditText
+                    android:id="@+id/FESYEAR"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="290dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="15dp"
+                android:hint="Student ID">
+
+                <EditText
+                    android:id="@+id/FESSTUDID"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="290dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="15dp"
+                android:hint="Amount" >
+
+                <EditText
+                    android:id="@+id/FESAMOUNT"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="phone" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="290dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="15dp"
+                android:hint="Paid On" >
+
+                <TextView
+                    android:id="@+id/date2"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="1"
+                    android:hint="Paid On"
+                    android:textSize="23sp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="290dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="15dp"
+                android:hint="Status" >
+
+                <EditText
+                    android:id="@+id/FESSTATUS"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/FESSUBMIT"
+                android:layout_width="100dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:text="SUBMIT"
+                android:background="@drawable/purple_gradient_button"
+                />
+
+            <Button
+                android:id="@+id/FEENEXT"
+                android:layout_width="135dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="10dp"
+                android:text="View List"
+                android:background="@drawable/purple_gradient_button"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

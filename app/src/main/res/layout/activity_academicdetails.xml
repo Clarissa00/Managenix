@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".AcademicdetailsActivity">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout11"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="@string/branch_for_eg_computer_etc"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="40dp"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/ABranch"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:autofillHints="Yes"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintEnd_toEndOf="@+id/Semester"
+                    app:layout_constraintTop_toBottomOf="@+id/textView"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout12"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/semester_for_eg_sem_1"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/ASemester"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:autofillHints="Yes"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintEnd_toEndOf="@+id/RollNo"
+                    app:layout_constraintTop_toBottomOf="@+id/Branch"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout13"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/roll_no_06"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/ARollNo"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:autofillHints="Yes"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintEnd_toEndOf="@+id/SSC"
+                    app:layout_constraintTop_toBottomOf="@+id/Semester"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout14"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/ssc_percentage"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/ASSC"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:autofillHints="Yes"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintEnd_toEndOf="@+id/HSCM"
+                    app:layout_constraintTop_toBottomOf="@+id/RollNo"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout20"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/hsc_marks_in_english"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/AHSCE"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:autofillHints="Yes"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintTop_toBottomOf="@+id/HSCC"
+                    tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+                    tools:layout_editor_absoluteX="61dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout15"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/hsc_marks_in_chemistry"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/AHSCC"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:autofillHints="Yes"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintEnd_toEndOf="@+id/HSCE"
+                    app:layout_constraintTop_toBottomOf="@+id/HSCP"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout16"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/hsc_marks_in_physics"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/AHSCP"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:autofillHints="Yes"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintEnd_toEndOf="@+id/HSCC"
+                    app:layout_constraintTop_toBottomOf="@+id/HSCM"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout17"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/hsc_marks_in_maths"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/AHSCM"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:autofillHints="Yes"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintEnd_toEndOf="@+id/HSCP"
+                    app:layout_constraintTop_toBottomOf="@+id/SSC"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout21"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="HSC Percentage %"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/Ahscpercentage"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout18"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="MHT-CET Percentile %"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/Amhtcetpercentile"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout19"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:hint="JEE Percentile %"
+                android:layout_width="290dp"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/Ajeepercentile"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/ADOA"
+                android:layout_width="290dp"
+                android:layout_height="64dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_vertical"
+                android:textSize="17sp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Date of Admission"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/ASUBMIT"
+                android:layout_width="100dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="40dp"
+                android:text="Submit"
+                android:textColor="#000000"
+                android:background="@drawable/purple_gradient_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.807"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.573"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

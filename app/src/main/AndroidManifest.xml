@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.managenix">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_logo_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Managenix"
+        tools:targetApi="31">
+        <activity
+            android:name=".profile_view"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:parentActivityName=".splash_screen" />
+        <activity
+            android:name=".placement_view"
+            android:exported="false" />
+        <activity
+            android:name=".fees_view"
+            android:exported="false"
+            android:parentActivityName=".fee_entry" />
+        <activity
+            android:name=".faculty_options"
+            android:exported="false"
+            android:parentActivityName=".faculty_login" />
+        <activity
+            android:name=".fee_entry"
+            android:exported="false" />
+        <activity
+            android:name=".faculty_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".faculty_register"
+            android:exported="false" />
+        <activity
+            android:name=".faculty_login"
+            android:exported="false" />
+        <activity
+            android:name=".logout"
+            android:exported="false"
+            android:parentActivityName=".AcademicdetailsActivity" />
+        <activity
+            android:name=".register"
+            android:exported="false"
+            android:label="Register"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false"
+            android:label="Dashboard"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DepartmentActivity"
+            android:exported="false"
+            android:label="Department"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".StudentprofileActivity"
+            android:exported="false"
+            android:label="Student Profile"
+            android:parentActivityName=".DepartmentActivity" />
+        <activity
+            android:name=".AcademicdetailsActivity"
+            android:exported="false"
+            android:label="Academic Details"
+            android:parentActivityName=".StudentprofileActivity" />
+        <activity
+            android:name=".splash_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

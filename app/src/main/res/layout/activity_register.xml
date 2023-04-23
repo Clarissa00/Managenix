@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarTrackVertical="@android:color/system_accent1_200"
+    tools:context=".DbitMainActivity2"
+    android:background="@drawable/gradient_background"
+    tools:targetApi="s">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout10"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="290dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginBottom="8dp"
+                android:hint="@string/username1"
+                app:endIconMode="clear_text">
+
+                <EditText
+                    android:id="@+id/RUsername"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout11"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="290dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginBottom="7dp"
+                android:hint="@string/password1"
+                app:endIconMode="password_toggle">
+
+                <EditText
+                    android:id="@+id/RPassword"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:autofillHints="Password"
+                    android:ems="10"
+                    android:inputType="text|textPassword" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout12"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="290dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginBottom="9dp"
+                android:hint="@string/Confirmpassword"
+                app:endIconMode="password_toggle">
+
+                <EditText
+                    android:id="@+id/RCPassword"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:autofillHints="Confirm_Password"
+                    android:ems="10"
+                    android:inputType="textPassword" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout13"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="290dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/Emailid"
+                app:endIconMode="clear_text">
+
+                <EditText
+                    android:id="@+id/REmailidp"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:autofillHints="Email_id (Personal Email)"
+                    android:ems="10"
+                    android:inputType="textEmailAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout14"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="290dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginBottom="8dp"
+                android:hint="@string/emailid1"
+                app:endIconMode="clear_text">
+
+                <EditText
+                    android:id="@+id/REmailidc"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:autofillHints="Email_id (College Email)"
+                    android:ems="10"
+                    android:inputType="textEmailAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout15"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="290dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginBottom="9dp"
+                android:hint="@string/Firstname"
+                app:endIconMode="clear_text">
+
+                <EditText
+                    android:id="@+id/RFirstname"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:autofillHints="First_Name"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout16"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="290dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginBottom="9dp"
+                android:hint="@string/surname1"
+                app:endIconMode="clear_text">
+
+                <EditText
+                    android:id="@+id/RSurname"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout20"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="290dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginBottom="24dp"
+                android:hint="Student ID"
+                app:endIconMode="clear_text">
+
+                <EditText
+                    android:id="@+id/RStudid"
+                    android:layout_width="290dp"
+                    android:layout_height="64dp"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/submit"
+                android:background="@drawable/purple_gradient_button"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Rback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:layout_marginBottom="51dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="Back"
+                android:background="@drawable/purple_gradient_button"
+                />
+
+            <TextView
+                android:id="@+id/REGFACULTY"
+                android:layout_width="134dp"
+                android:layout_height="22dp"
+                android:layout_marginBottom="10dp"
+                android:text="Register as Faculty!!"
+                android:textColor="#000000"
+                app:autoSizeTextType="uniform"
+                android:layout_marginStart="130dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
